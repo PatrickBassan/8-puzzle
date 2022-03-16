@@ -6,6 +6,7 @@
 ## Graph Search
 
 ## Referências
-https://www.hackerearth.com/practice/algorithms/greedy/basics-of-greedy-algorithms/tutorial/
-https://brilliant.org/wiki/greedy-algorithm/
-https://brilliant.org/wiki/a-star-search/
+- https://www.hackerearth.com/practice/algorithms/greedy/basics-of-greedy-algorithms/tutorial/
+- https://brilliant.org/wiki/greedy-algorithm/
+- https://brilliant.org/wiki/a-star-search/
+- https://www.geeksforgeeks.org/greedy-algorithms-general-structure-and-applications/
