@@ -14,5 +14,6 @@ Qualquer algoritmo que visita todos os vértices de um grafo, andando pelos arco
 - https://towardsdatascience.com/a-star-a-search-algorithm-eb495fb156bb
 - https://ai-master.gitbooks.io/classic-search/content/chapter1.html
 - http://www.cs.cmu.edu/afs/cs/academic/class/15210-s15/www/lectures/graph-search-notes.pdf
-- https://www.gatevidyalay.com/tag/a-algorithm-for-8-puzzle-problem/ (stepBystepLogic)
-- https://blog.goodaudience.com/solving-8-puzzle-using-a-algorithm-7b509c331288 (8puzzle)
+- https://www.gatevidyalay.com/tag/a-algorithm-for-8-puzzle-problem/
+- https://blog.goodaudience.com/solving-8-puzzle-using-a-algorithm-7b509c331288
+- https://github.com/ani94/8-puzzle-solver-cpp/blob/master/8puzzle.cpp
