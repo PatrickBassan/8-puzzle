@@ -15,5 +15,4 @@ Qualquer algoritmo que visita todos os vértices de um grafo, andando pelos arco
 - https://ai-master.gitbooks.io/classic-search/content/chapter1.html
 - http://www.cs.cmu.edu/afs/cs/academic/class/15210-s15/www/lectures/graph-search-notes.pdf
 - https://www.gatevidyalay.com/tag/a-algorithm-for-8-puzzle-problem/ (stepBystepLogic)
-- https://www.geeksforgeeks.org/8-puzzle-problem-using-branch-and-bound/ (solução errada?)
 - https://blog.goodaudience.com/solving-8-puzzle-using-a-algorithm-7b509c331288 (8puzzle)
