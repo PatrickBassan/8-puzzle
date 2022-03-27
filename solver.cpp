@@ -178,16 +178,16 @@ void solve(vector<vector<int> > a, int moves)
 	return;
 }
 
-bool solvable(vector<vector<int> > a, vector<int> b)
+bool solvable(vector<vector<int> > a, vector<int> v)
 {
 	//se N for impar e inversao for impar, nao pode resolver, senao pode
 	int inv = 0;
-	for(int i=0;i<b.size();i++)
+	for(int i=0;i<v.size();i++)
 	{
-		if (b[i] != 0) {
-			for(int j=i;j<b.size();j++)
+		if (v[i] != 0) {
+			for(int j=i;j<v.size();j++)
 			{
-				if (b[i] > b[j] && b[j] != 0){
+				if (v[i] > v[j] && v[j] != 0){
 					inv += 1;
 				}
 			}
@@ -211,7 +211,7 @@ int main()
 	cout<<"Digite o puzzle do 8 como string! \n";
 	cout<<"\nPor exemplo => 0 1 3 4 2 5 7 8 6\n";
 	vector<vector<int> > a(3,vector<int> (3));
-	vector<int> b(9);
+	vector<int> v(9);
 	
 	for(int i=0;i<3;i++)
 	{
@@ -222,9 +222,12 @@ int main()
 		}
 	}
 
-	for(int x=0;x<b.size();x++)
+	for (int i=0; i<3; ++i)
 	{
-		cin>>b[x];	
+	  for (int j=0; j<3; ++j)
+	  {
+	     v[i*3 + j] = a[i][j];
+	  }
 	}
 	
 	goal[0][0] = 1;
@@ -236,6 +239,6 @@ int main()
 	goal[2][0] = 7;
 	goal[2][1] = 8;
 	goal[2][2] = 0;
-	solvable(a, b);
+	solvable(a, v);
 }
 
