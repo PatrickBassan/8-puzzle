@@ -1,4 +1,5 @@
 # 8-puzzle
+Equipe: Patrick Bassan e Maurício Nunes
 ## Greedy Search
 É um algoritmo que busca sempre fazer a melhor escolha aparente num determinando momento, ou seja, ele faz a melhor escolha localmente na esperança de chegar na melhor escolha global, mesmo assim, ele não é considerado um algoritmo com uma boa otimização. Outro detalhe, é que esse algoritmo possui apenas uma oportunidade para fazer a escolha ideal, portanto ele nunca retorna e refaz a escolha anterior.
 ## A*
